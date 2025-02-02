@@ -1,0 +1,46 @@
+.flex {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 2px solid red;
+  position: absolute;
+  top: 10px;
+  bottom: 100px;
+
+  /* animation-name: colorN;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse; */
+  animation: colorN 1s linear 0s infinite normal;
+  text-align: center;
+}
+
+@keyframes colorN {
+  0% {
+    left: 0px;
+    background-color: rgb(240, 9, 9);
+    rotate: 360deg;
+  }
+  10% {
+    left: 20px;
+    background-color:red;
+    rotate: 360deg;
+  }
+  30% {
+    left: 60px;
+    background-color: red;
+    
+  }
+  70% {
+    left: 100px;
+    background-color:  red;
+    
+  }
+  100% {
+    left: 1000px;
+    background-color: red;
+   
+  }
+}
