@@ -11,7 +11,6 @@
 // account3 = 979;
 // console.log(account3);
 // 
-//we
 //  use only for const and let keyword;
  //_____________________________________________________________________________________
 
