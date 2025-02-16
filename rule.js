@@ -30,9 +30,17 @@
 
 // __________________________________operation______________________________
 
-let value = 34;
-let nagative = -value;
-// console.log(nagative);
-console.log("1" + 2 + 5);
-console.log(1 + 3 + "2");
-console.log(1 + "3" + 2);
+// let value = 34;
+// let nagative = -value;
+// // console.log(nagative);
+// console.log("1" + 2 + 5);
+// console.log(1 + 3 + "2");
+// console.log(1 + "3" + 2);
+// console.log(+"");
+//prefix and posfix
+let a = 3;
+let b = a++;
+console.log(a, b);
+let c = 3;
+let d = ++c;
+console.log(c, d);
