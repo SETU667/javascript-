@@ -27,3 +27,12 @@
 // let a=77;
 // let string= String(a)
 // console.log(typeof string);
+
+// __________________________________operation______________________________
+
+let value = 34;
+let nagative = -value;
+// console.log(nagative);
+console.log("1" + 2 + 5);
+console.log(1 + 3 + "2");
+console.log(1 + "3" + 2);
