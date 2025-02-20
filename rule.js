@@ -38,9 +38,9 @@
 // console.log(1 + "3" + 2);
 // console.log(+"");
 //prefix and posfix
-let a = 3;
-let b = a++;
-console.log(a, b);
-let c = 3;
-let d = ++c;
-console.log(c, d);
+// let a = 3;
+// let b = a++;
+// console.log(a, b);
+// let c = 3;
+// let d = ++c;
+// console.log(c, d);
