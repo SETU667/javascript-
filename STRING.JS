@@ -33,10 +33,19 @@
 // console.log(Math.ceil(4.256));
 // console.log(Math.floor(454.999));
 
-console.log(Math.random());
-console.log(Math.random() * 10 + 1);
+// 
 
-const min = 10;
-const max = 50;
+//date 
 
-console.log(Math.floor(Math.random() * (max - min + 1)) + min);
+
+let date =new Date()
+console.log(date.toString())
+console.log(date.toLocaleString())
+console.log(date.toDateString())
+console.log(typeof date)
+
+
+let myCreatedate =new Date(2025,2,23 )
+console.log(myCreatedate.toDateString());
+
+
